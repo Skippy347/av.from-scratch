@@ -13,6 +13,9 @@
   --color-palette-gray-300: #cccccc;
 
   --transition-duration: 0.2s;
+
+  --container-width: 320px;
+  --container-padding-x: 20px;
 }
 
 .visually-hidden {
@@ -38,4 +41,11 @@ body {
 
   color: var(--color-palette-gray-50);
   background-color: var(--color-palette-black-950);
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
 }
