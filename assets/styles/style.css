@@ -3,6 +3,8 @@
   --font-family-accent: "EB Garamond", serif;
 
   --color-palette-black: #000000;
+  --color-palette-black-950: #131313;
+
   --color-palette-white: #ffffff;
 
   --color-palette-yellow-100: #fee42a;
@@ -24,4 +26,16 @@
   clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
+}
+
+body {
+  font-family: var(--font-family-base);
+
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 1.35;
+
+  color: var(--color-palette-gray-50);
+  background-color: var(--color-palette-black-950);
 }
