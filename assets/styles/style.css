@@ -1,0 +1,14 @@
+:root {
+  --font-family-base: "Inter", sans-serif;
+  --font-family-accent: "EB Garamond", serif;
+
+  --color-palette-black: #000000;
+  --color-palette-white: #ffffff;
+
+  --color-palette-yellow-100: #fee42a;
+
+  --color-palette-gray-50: #f5f5f5;
+  --color-palette-gray-300: #cccccc;
+
+  --transition-duration: 0.2s;
+}
