@@ -12,10 +12,14 @@
   --color-palette-gray-50: #f5f5f5;
   --color-palette-gray-300: #cccccc;
 
+  --color-palette-red-400: #ff0000;
+
   --transition-duration: 0.2s;
 
   --container-width: 20rem;
   --container-padding-x: 1.25rem;
+
+  --section-padding-y: 1.875rem;
 }
 
 .visually-hidden {
@@ -29,6 +33,10 @@
   clip-path: inset(100%) !important;
   clip: rect(0 0 0 0) !important;
   overflow: hidden !important;
+}
+
+section {
+  padding-block: var(--section-padding-y);
 }
 
 body {
@@ -75,4 +83,34 @@ header .logo {
 
 .menu__link_current {
   text-decoration: none;
+}
+
+.intro {
+  background-image: url("../images/cover.svg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro__title {
+  font-family: var(--font-family-accent);
+
+  font-size: 4.5rem;
+  font-weight: 400;
+
+  line-height: 1;
+
+  -webkit-text-stroke: 1px var(--color-palette-red-400);
+}
+
+.text-segment {
+  display: block;
+}
+
+.text-segment_center {
+  text-align: center;
+}
+
+.text-segment_right {
+  text-align: right;
 }
