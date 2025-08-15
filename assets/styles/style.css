@@ -139,6 +139,10 @@ header .logo {
   display: block;
 }
 
+.text-segment_left {
+  text-align: left;
+}
+
 .text-segment_center {
   text-align: center;
 }
