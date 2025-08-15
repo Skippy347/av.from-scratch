@@ -261,6 +261,14 @@ header .logo {
 
   border-radius: 30px;
 }
+.card__author-photo {
+  width: 6.25rem;
+  height: 6.25rem;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
 
 .card__author-info {
   margin-bottom: var(--spacing-12);
