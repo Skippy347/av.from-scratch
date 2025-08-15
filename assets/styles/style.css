@@ -250,10 +250,15 @@ header .logo {
 
 .card {
   display: flex;
-  width: 319px;
-  padding: 20px;
   flex-direction: column;
   align-items: flex-start;
+
+  width: 100%;
+  max-width: 19.93rem;
+
+  padding-block: var(--spacing-20);
+  padding-inline: var(--spacing-20);
+
   border-radius: 30px;
 }
 
