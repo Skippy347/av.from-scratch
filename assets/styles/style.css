@@ -27,6 +27,7 @@
 
   --color-palette-gray-50: #f5f5f5;
   --color-palette-gray-300: #cccccc;
+  --color-palette-gray-800: #343434;
 
   --color-palette-red-400: #ff0000;
 
@@ -94,15 +95,22 @@ a {
   line-height: 1.15;
 }
 
-.heading_size-large {
-  font-size: 4.75rem;
+.heading_size-small {
+  font-size: 1.375rem;
 
-  margin-bottom: var(--spacing-32);
+  margin-bottom: var(--spacing-20);
 }
+
 .heading_size-medium {
   font-size: 1.75rem;
 
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-32);
+}
+
+.heading_size-large {
+  font-size: 4.75rem;
+
+  margin-bottom: var(--spacing-40);
 }
 
 .heading_theme-dark {
@@ -228,4 +236,40 @@ header .logo {
   row-gap: var(--spacing-16);
 
   padding-top: var(--spacing-16);
+}
+
+.tips__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  row-gap: var(--spacing-16);
+
+  padding-top: var(--spacing-16);
+}
+
+.card {
+  display: flex;
+  width: 319px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+}
+
+.card__author-info {
+  margin-bottom: var(--spacing-12);
+}
+
+.card__author-photo {
+  margin-bottom: var(--spacing-8);
+}
+
+.card_theme-gray {
+  background-color: var(--color-palette-gray-800);
+}
+
+.card_theme-yellow {
+  color: var(--color-palette-black-950);
+  background-color: var(--color-palette-yellow-100);
 }
