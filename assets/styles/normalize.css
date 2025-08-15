@@ -71,7 +71,7 @@ p {
 }
 
 p:not([class]) {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-16);
 }
 
 p:not([class]):last-child {
