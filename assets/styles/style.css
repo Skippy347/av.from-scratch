@@ -286,3 +286,22 @@ header .logo {
   color: var(--color-palette-black-950);
   background-color: var(--color-palette-yellow-100);
 }
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+
+  padding-block: var(--spacing-24);
+  padding-inline: var(--spacing-20);
+}
+
+.footer__list {
+  display: flex;
+
+  column-gap: var(--spacing-12);
+}
+
+.footer__link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
